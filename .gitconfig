@@ -3,6 +3,9 @@
   st = status
   co = checkout
   ci = commit
+  br = branch
 [user]
 	name = Joel Turnbull
 	email = joelbywan@gmail.com
+[color]
+	ui = true

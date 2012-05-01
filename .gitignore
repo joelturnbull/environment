@@ -5,6 +5,7 @@
 .cinderella/
 .gem/
 .gemrc
+.heroku/
 .irbrc
 .lesshst
 .mysql_history
