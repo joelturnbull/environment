@@ -3,3 +3,6 @@
   st = status
   co = checkout
   ci = commit
+[user]
+	name = Joel Turnbull
+	email = joelbywan@gmail.com
