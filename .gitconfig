@@ -1,9 +1,14 @@
+[branch]
+  autosetuprebase = always
 [alias]
   s  = status
   st = status
   co = checkout
   ci = commit
   br = branch
+  graph = log --graph --oneline --decorate=short --branches='*'
+  df = diff --color-words='[^[:space:]]'
+  sh = show --color-words='[^[:space:]]'
 [user]
 	name = Joel Turnbull
 	email = joelbywan@gmail.com

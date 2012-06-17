@@ -1,0 +1,4 @@
+inheriting code
+merge master into it whatever conflicts is a queue to what changed
+
+as you locate key files of new code, put a single line of "#" at the top so that a git status will show it. When I ran rails server, I was halted by new migrations. One of those migrations was new to me, I took a quick look at what it added. But anticipated the desire to look there again in case things weren't adding up later.
