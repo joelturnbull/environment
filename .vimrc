@@ -18,3 +18,6 @@ set background=dark
 colorscheme solarized
 
 :set guifont=Bitstream\ Vera\ Sans\ Mono:h14
+
+" yank to clipboard
+:map <C-c> "+y<CR>
