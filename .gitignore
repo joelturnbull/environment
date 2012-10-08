@@ -25,6 +25,7 @@
 .viminfo
 *~
 *.swp
+*.swo
 Desktop/
 Developer/
 Documents/

@@ -1,0 +1,2 @@
+--type-add=coffeescript=.coffee
+--type-add=gherkin=.feature

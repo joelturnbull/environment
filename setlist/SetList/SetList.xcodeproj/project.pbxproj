@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		428EFEA715FD240D00A411EF /* SongCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 428EFEA615FD240D00A411EF /* SongCell.m */; };
+		428EFEA815FD240D00A411EF /* SongCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 428EFEA615FD240D00A411EF /* SongCell.m */; };
+		428EFEB015FD890F00A411EF /* SongListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 428EFEAF15FD890F00A411EF /* SongListViewController.m */; };
+		428EFEB115FD890F00A411EF /* SongListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 428EFEAF15FD890F00A411EF /* SongListViewController.m */; };
+		42AC32FA15FC2EEA003CA317 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AC32F915FC2EEA003CA317 /* UIKit.framework */; };
+		42AC32FC15FC2EEA003CA317 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AC32FB15FC2EEA003CA317 /* Foundation.framework */; };
+		42AC32FE15FC2EEA003CA317 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AC32FD15FC2EEA003CA317 /* CoreGraphics.framework */; };
+		42AC330415FC2EEA003CA317 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42AC330215FC2EEA003CA317 /* InfoPlist.strings */; };
+		42AC330615FC2EEA003CA317 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AC330515FC2EEA003CA317 /* main.m */; };
+		42AC330A15FC2EEA003CA317 /* SetListAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AC330915FC2EEA003CA317 /* SetListAppDelegate.m */; };
+		42AC330D15FC2EEA003CA317 /* OriginalSongListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AC330C15FC2EEA003CA317 /* OriginalSongListViewController.m */; };
+		42AC331015FC2EEA003CA317 /* SongListViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42AC330E15FC2EEA003CA317 /* SongListViewController_iPhone.xib */; };
+		42AC331315FC2EEA003CA317 /* SongListViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42AC331115FC2EEA003CA317 /* SongListViewController_iPad.xib */; };
+		42AC331B15FC2EEA003CA317 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AC331A15FC2EEA003CA317 /* SenTestingKit.framework */; };
+		42AC331C15FC2EEA003CA317 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AC32F915FC2EEA003CA317 /* UIKit.framework */; };
+		42AC331D15FC2EEA003CA317 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AC32FB15FC2EEA003CA317 /* Foundation.framework */; };
+		42AC332515FC2EEA003CA317 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42AC332315FC2EEA003CA317 /* InfoPlist.strings */; };
+		42AC332815FC2EEA003CA317 /* SetListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AC332715FC2EEA003CA317 /* SetListTests.m */; };
+		42AC333215FC36A2003CA317 /* songs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42AC333115FC36A2003CA317 /* songs.plist */; };
+		42B1692315FCED9700C5A68B /* SongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B1692115FCED9700C5A68B /* SongViewController.m */; };
+		42B1692415FCED9700C5A68B /* SongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B1692115FCED9700C5A68B /* SongViewController.m */; };
+		42B1692515FCED9700C5A68B /* SongViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42B1692215FCED9700C5A68B /* SongViewController_iPad.xib */; };
+		42B1692615FCED9700C5A68B /* SongViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42B1692215FCED9700C5A68B /* SongViewController_iPad.xib */; };
+		42B1692815FCF09B00C5A68B /* SetListStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42B1692715FCF09B00C5A68B /* SetListStoryboard.storyboard */; };
+		42B1692915FCF09B00C5A68B /* SetListStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42B1692715FCF09B00C5A68B /* SetListStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42AC331E15FC2EEA003CA317 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42AC32EC15FC2EEA003CA317 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42AC32F415FC2EEA003CA317;
+			remoteInfo = SetList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		428EFEA515FD240D00A411EF /* SongCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongCell.h; sourceTree = "<group>"; };
+		428EFEA615FD240D00A411EF /* SongCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongCell.m; sourceTree = "<group>"; };
+		428EFEAE15FD890F00A411EF /* SongListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongListViewController.h; sourceTree = "<group>"; };
+		428EFEAF15FD890F00A411EF /* SongListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongListViewController.m; sourceTree = "<group>"; };
+		42AC32F515FC2EEA003CA317 /* SetList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SetList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42AC32F915FC2EEA003CA317 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		42AC32FB15FC2EEA003CA317 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		42AC32FD15FC2EEA003CA317 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		42AC330115FC2EEA003CA317 /* SetList-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SetList-Info.plist"; sourceTree = "<group>"; };
+		42AC330315FC2EEA003CA317 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		42AC330515FC2EEA003CA317 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42AC330715FC2EEA003CA317 /* SetList-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SetList-Prefix.pch"; sourceTree = "<group>"; };
+		42AC330815FC2EEA003CA317 /* SetListAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetListAppDelegate.h; sourceTree = "<group>"; };
+		42AC330915FC2EEA003CA317 /* SetListAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetListAppDelegate.m; sourceTree = "<group>"; };
+		42AC330B15FC2EEA003CA317 /* OriginalSongListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OriginalSongListViewController.h; sourceTree = "<group>"; };
+		42AC330C15FC2EEA003CA317 /* OriginalSongListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OriginalSongListViewController.m; sourceTree = "<group>"; };
+		42AC330F15FC2EEA003CA317 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SongListViewController_iPhone.xib; sourceTree = "<group>"; };
+		42AC331215FC2EEA003CA317 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SongListViewController_iPad.xib; sourceTree = "<group>"; };
+		42AC331915FC2EEA003CA317 /* SetListTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SetListTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42AC331A15FC2EEA003CA317 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		42AC332215FC2EEA003CA317 /* SetListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SetListTests-Info.plist"; sourceTree = "<group>"; };
+		42AC332415FC2EEA003CA317 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		42AC332615FC2EEA003CA317 /* SetListTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetListTests.h; sourceTree = "<group>"; };
+		42AC332715FC2EEA003CA317 /* SetListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetListTests.m; sourceTree = "<group>"; };
+		42AC333115FC36A2003CA317 /* songs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = songs.plist; sourceTree = "<group>"; };
+		42B1692015FCED9700C5A68B /* SongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongViewController.h; sourceTree = "<group>"; };
+		42B1692115FCED9700C5A68B /* SongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongViewController.m; sourceTree = "<group>"; };
+		42B1692215FCED9700C5A68B /* SongViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SongViewController_iPad.xib; sourceTree = "<group>"; };
+		42B1692715FCF09B00C5A68B /* SetListStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SetListStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42AC32F215FC2EEA003CA317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42AC32FA15FC2EEA003CA317 /* UIKit.framework in Frameworks */,
+				42AC32FC15FC2EEA003CA317 /* Foundation.framework in Frameworks */,
+				42AC32FE15FC2EEA003CA317 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42AC331515FC2EEA003CA317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42AC331B15FC2EEA003CA317 /* SenTestingKit.framework in Frameworks */,
+				42AC331C15FC2EEA003CA317 /* UIKit.framework in Frameworks */,
+				42AC331D15FC2EEA003CA317 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		428EFEA315FD23CB00A411EF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				428EFEA515FD240D00A411EF /* SongCell.h */,
+				428EFEA615FD240D00A411EF /* SongCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		428EFEA915FD87D800A411EF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				428EFEAE15FD890F00A411EF /* SongListViewController.h */,
+				428EFEAF15FD890F00A411EF /* SongListViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		42AC32EA15FC2EEA003CA317 = {
+			isa = PBXGroup;
+			children = (
+				42AC32FF15FC2EEA003CA317 /* SetList */,
+				42AC332015FC2EEA003CA317 /* SetListTests */,
+				42AC32F815FC2EEA003CA317 /* Frameworks */,
+				42AC32F615FC2EEA003CA317 /* Products */,
+				42E5E15715FC39D900F356F7 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		42AC32F615FC2EEA003CA317 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42AC32F515FC2EEA003CA317 /* SetList.app */,
+				42AC331915FC2EEA003CA317 /* SetListTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42AC32F815FC2EEA003CA317 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42AC32F915FC2EEA003CA317 /* UIKit.framework */,
+				42AC32FB15FC2EEA003CA317 /* Foundation.framework */,
+				42AC32FD15FC2EEA003CA317 /* CoreGraphics.framework */,
+				42AC331A15FC2EEA003CA317 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42AC32FF15FC2EEA003CA317 /* SetList */ = {
+			isa = PBXGroup;
+			children = (
+				428EFEA915FD87D800A411EF /* Controllers */,
+				428EFEA315FD23CB00A411EF /* Views */,
+				42AC330815FC2EEA003CA317 /* SetListAppDelegate.h */,
+				42AC330915FC2EEA003CA317 /* SetListAppDelegate.m */,
+				42B1692715FCF09B00C5A68B /* SetListStoryboard.storyboard */,
+				42AC330E15FC2EEA003CA317 /* SongListViewController_iPhone.xib */,
+				42AC331115FC2EEA003CA317 /* SongListViewController_iPad.xib */,
+				42B1692015FCED9700C5A68B /* SongViewController.h */,
+				42B1692115FCED9700C5A68B /* SongViewController.m */,
+				42B1692215FCED9700C5A68B /* SongViewController_iPad.xib */,
+				42AC330B15FC2EEA003CA317 /* OriginalSongListViewController.h */,
+				42AC330C15FC2EEA003CA317 /* OriginalSongListViewController.m */,
+				42AC330015FC2EEA003CA317 /* Supporting Files */,
+			);
+			path = SetList;
+			sourceTree = "<group>";
+		};
+		42AC330015FC2EEA003CA317 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42AC330115FC2EEA003CA317 /* SetList-Info.plist */,
+				42AC330215FC2EEA003CA317 /* InfoPlist.strings */,
+				42AC330515FC2EEA003CA317 /* main.m */,
+				42AC330715FC2EEA003CA317 /* SetList-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42AC332015FC2EEA003CA317 /* SetListTests */ = {
+			isa = PBXGroup;
+			children = (
+				42AC332615FC2EEA003CA317 /* SetListTests.h */,
+				42AC332715FC2EEA003CA317 /* SetListTests.m */,
+				42AC332115FC2EEA003CA317 /* Supporting Files */,
+			);
+			path = SetListTests;
+			sourceTree = "<group>";
+		};
+		42AC332115FC2EEA003CA317 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42AC332215FC2EEA003CA317 /* SetListTests-Info.plist */,
+				42AC332315FC2EEA003CA317 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42E5E15715FC39D900F356F7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				42AC333115FC36A2003CA317 /* songs.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42AC32F415FC2EEA003CA317 /* SetList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42AC332B15FC2EEA003CA317 /* Build configuration list for PBXNativeTarget "SetList" */;
+			buildPhases = (
+				42AC32F115FC2EEA003CA317 /* Sources */,
+				42AC32F215FC2EEA003CA317 /* Frameworks */,
+				42AC32F315FC2EEA003CA317 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SetList;
+			productName = SetList;
+			productReference = 42AC32F515FC2EEA003CA317 /* SetList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42AC331815FC2EEA003CA317 /* SetListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42AC332E15FC2EEA003CA317 /* Build configuration list for PBXNativeTarget "SetListTests" */;
+			buildPhases = (
+				42AC331415FC2EEA003CA317 /* Sources */,
+				42AC331515FC2EEA003CA317 /* Frameworks */,
+				42AC331615FC2EEA003CA317 /* Resources */,
+				42AC331715FC2EEA003CA317 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42AC331F15FC2EEA003CA317 /* PBXTargetDependency */,
+			);
+			name = SetListTests;
+			productName = SetListTests;
+			productReference = 42AC331915FC2EEA003CA317 /* SetListTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42AC32EC15FC2EEA003CA317 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SetList;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Joel Turnbull";
+			};
+			buildConfigurationList = 42AC32EF15FC2EEA003CA317 /* Build configuration list for PBXProject "SetList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 42AC32EA15FC2EEA003CA317;
+			productRefGroup = 42AC32F615FC2EEA003CA317 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42AC32F415FC2EEA003CA317 /* SetList */,
+				42AC331815FC2EEA003CA317 /* SetListTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42AC32F315FC2EEA003CA317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42AC330415FC2EEA003CA317 /* InfoPlist.strings in Resources */,
+				42AC331015FC2EEA003CA317 /* SongListViewController_iPhone.xib in Resources */,
+				42AC331315FC2EEA003CA317 /* SongListViewController_iPad.xib in Resources */,
+				42AC333215FC36A2003CA317 /* songs.plist in Resources */,
+				42B1692515FCED9700C5A68B /* SongViewController_iPad.xib in Resources */,
+				42B1692815FCF09B00C5A68B /* SetListStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42AC331615FC2EEA003CA317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42AC332515FC2EEA003CA317 /* InfoPlist.strings in Resources */,
+				42B1692615FCED9700C5A68B /* SongViewController_iPad.xib in Resources */,
+				42B1692915FCF09B00C5A68B /* SetListStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42AC331715FC2EEA003CA317 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42AC32F115FC2EEA003CA317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42AC330615FC2EEA003CA317 /* main.m in Sources */,
+				42AC330A15FC2EEA003CA317 /* SetListAppDelegate.m in Sources */,
+				42AC330D15FC2EEA003CA317 /* OriginalSongListViewController.m in Sources */,
+				42B1692315FCED9700C5A68B /* SongViewController.m in Sources */,
+				428EFEA715FD240D00A411EF /* SongCell.m in Sources */,
+				428EFEB015FD890F00A411EF /* SongListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42AC331415FC2EEA003CA317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42AC332815FC2EEA003CA317 /* SetListTests.m in Sources */,
+				42B1692415FCED9700C5A68B /* SongViewController.m in Sources */,
+				428EFEA815FD240D00A411EF /* SongCell.m in Sources */,
+				428EFEB115FD890F00A411EF /* SongListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42AC331F15FC2EEA003CA317 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42AC32F415FC2EEA003CA317 /* SetList */;
+			targetProxy = 42AC331E15FC2EEA003CA317 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42AC330215FC2EEA003CA317 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42AC330315FC2EEA003CA317 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		42AC330E15FC2EEA003CA317 /* SongListViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42AC330F15FC2EEA003CA317 /* en */,
+			);
+			name = SongListViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		42AC331115FC2EEA003CA317 /* SongListViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42AC331215FC2EEA003CA317 /* en */,
+			);
+			name = SongListViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		42AC332315FC2EEA003CA317 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42AC332415FC2EEA003CA317 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42AC332915FC2EEA003CA317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42AC332A15FC2EEA003CA317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42AC332C15FC2EEA003CA317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SetList/SetList-Prefix.pch";
+				INFOPLIST_FILE = "SetList/SetList-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		42AC332D15FC2EEA003CA317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SetList/SetList-Prefix.pch";
+				INFOPLIST_FILE = "SetList/SetList-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		42AC332F15FC2EEA003CA317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SetList.app/SetList";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SetList/SetList-Prefix.pch";
+				INFOPLIST_FILE = "SetListTests/SetListTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		42AC333015FC2EEA003CA317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SetList.app/SetList";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SetList/SetList-Prefix.pch";
+				INFOPLIST_FILE = "SetListTests/SetListTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42AC32EF15FC2EEA003CA317 /* Build configuration list for PBXProject "SetList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42AC332915FC2EEA003CA317 /* Debug */,
+				42AC332A15FC2EEA003CA317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42AC332B15FC2EEA003CA317 /* Build configuration list for PBXNativeTarget "SetList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42AC332C15FC2EEA003CA317 /* Debug */,
+				42AC332D15FC2EEA003CA317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42AC332E15FC2EEA003CA317 /* Build configuration list for PBXNativeTarget "SetListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42AC332F15FC2EEA003CA317 /* Debug */,
+				42AC333015FC2EEA003CA317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42AC32EC15FC2EEA003CA317 /* Project object */;
+}

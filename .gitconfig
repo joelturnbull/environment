@@ -14,3 +14,5 @@
 	email = joelbywan@gmail.com
 [color]
 	ui = true
+[core]
+	excludesfile = /Users/joelturnbull/.gitignore
